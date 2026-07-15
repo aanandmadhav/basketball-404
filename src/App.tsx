@@ -372,9 +372,6 @@ export default function App() {
         )}
       </div>
 
-      <a className="credit" href="https://aanandmadhav.com" target="_blank" rel="noreferrer">
-        Built by Aanand Madhav
-      </a>
     </main>
   )
 }
