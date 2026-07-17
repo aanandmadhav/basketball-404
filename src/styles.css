@@ -98,9 +98,8 @@ h1 {
 .stage {
   position: absolute;
   inset: 0;
-  width: min(1240px, calc(100% - 32px));
+  width: 100%;
   height: 100%;
-  margin: 0 auto;
   overflow: hidden;
   touch-action: none;
 }
@@ -259,7 +258,7 @@ h1 {
 }
 
 .reset {
-  right: 0;
+  right: 16px;
   cursor: pointer;
 }
 
@@ -312,10 +311,6 @@ h1 {
     line-height: 1.35;
   }
 
-  .stage {
-    width: calc(100% - 16px);
-  }
-
   .hoop {
     top: 33%;
     transform: translateX(-50%) scale(0.76);
@@ -332,14 +327,14 @@ h1 {
   }
 
   .reset {
-    right: 6px;
+    right: 14px;
     bottom: 16px;
   }
 
   .instruction {
     right: auto;
     bottom: 16px;
-    left: 6px;
+    left: 14px;
     padding: 8px 10px;
     font-size: 9px;
   }
